@@ -5,7 +5,7 @@ const port = process.env.PORT || 8080;
 const validUrl = require('valid-url');
 
 var parseUrl = function(url) {
-    url = decodeURIComponent(url)
+    url = decodeURIComponent('https://www.google.com/?hl=ar')
     if (!/^(?:f|ht)tps?\:\/\//.test(url)) {
         url = 'http://' + url;
     }
