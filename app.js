@@ -10,6 +10,7 @@ var parseUrl = function(url) {
         url = 'http://' + url;
     }
 
+    
     return url;
 };
 
