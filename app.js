@@ -1,4 +1,5 @@
 const express = require('express');
+require('dotenv').config()
 const app = express();
 const telegramBot = require('node-telegram-bot-api')
 const token = '1483288023:AAEJRi3flF6Oh0X-VvvcHyCKeLqron-_SkQ'
